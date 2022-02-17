@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const postSchema = mongoose.Schema({
-  title: String,
+  NamaBarang: String,
   HargaBeli: Number,
   HargaJual: Number,
   Stock: Number,
