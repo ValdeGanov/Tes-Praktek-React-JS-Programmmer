@@ -1,10 +1,11 @@
 import mongoose from "mongoose";
 
 const postSchema = mongoose.Schema({
-  NamaBarang: String,
-  HargaBeli: Number,
-  HargaJual: Number,
-  Stock: Number,
+  namaBarang: String,
+  hargaBeli: Number,
+  hargaJual: Number,
+  stock: Number,
+  selectedFile: String,
   createdAt: {
     type: Date,
     default: new Date(),
